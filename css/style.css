@@ -1,0 +1,121 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	color: #fff;
+	background-color: #070217;
+}
+
+.homePage {
+	margin: 0 0 50px;
+}
+
+.link {
+	display: inline-block;
+	padding: 24px 49px;
+	margin: 0 25px 0 0;
+}
+
+.contents:last-child {
+	margin: 0 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 1170px;
+}
+
+p {
+	margin: 0 0 40px;
+	width: 872px;
+}
+
+.heading1 {
+	margin: 0 0 40px;
+}
+
+.heading {
+	margin: 0 0 10px;
+}
+
+ul {
+	padding: 0 0 0 15px;
+	margin: 0 0 10px;
+}
+
+li {
+	margin: 0 0 20px;
+}
+
+li:last-child {
+	margin: 0;
+}
+
+.paragraph {
+	margin: 0 0 10px;
+}
+
+.paragraph:last-child {
+	margin: 0;
+}
+
+figure {
+	display: inline-block;
+	margin: 0 0 40px;
+	width: 872px;
+}
+
+figure img {
+	margin: 0 0 10px;
+}
+
+.paragraph figure:last-child {
+	margin: 0;
+}
+
+.grayBlock {
+	background-color: #f3f3f3;
+	border-radius: 20px;
+	padding: 30px;
+	margin: 0 0 40px;
+}
+
+.grayBlock:last-child {
+	margin: 0;
+}
+
+.grayBlock p {
+	margin: 0 0 10px;
+	width: 692px;
+}
+
+.grayBlock p:last-child {
+	margin: 0;
+}
