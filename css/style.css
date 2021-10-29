@@ -119,3 +119,7 @@ figure img {
 .grayBlock p:last-child {
 	margin: 0;
 }
+
+a:last-child {
+	margin: 0;
+}
