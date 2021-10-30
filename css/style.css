@@ -42,14 +42,18 @@ body {
 	margin: 0 25px 0 0;
 }
 
-.contents:last-child {
-	margin: 0 0;
+a:last-child {
+	margin: 0;
 }
 
 .container {
 	margin: 0 auto;
 	padding: 80px 0;
 	width: 1170px;
+}
+
+.contents:last-child {
+	margin: 0 0;
 }
 
 p {
@@ -79,7 +83,7 @@ li:last-child {
 }
 
 .paragraph {
-	margin: 0 0 10px;
+	margin: 0 0 40px;
 }
 
 .paragraph:last-child {
@@ -120,6 +124,10 @@ figure img {
 	margin: 0;
 }
 
-a:last-child {
-	margin: 0;
+.img {
+  margin: 0 0 40px;
+}
+
+.img:last-child {
+  margin: 0;
 }
